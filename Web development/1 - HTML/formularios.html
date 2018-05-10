@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formulários</title>
+		<meta charset = "utf-8" />
+	</head>
+	
+
+	<body>
+		<h1> Formulários</h1>
+
+		<form>
+			Login:<br/>
+			<input type = "text" name="login"/><br/> <!-- define a entrada de dados do usuário.-->
+			Senha:<br/>
+			<input type = "password" name="password" /><br/> 
+
+			<!-- type submit vai fazer os dados do botão ser enviados pra processamento. IMPORTANTE: é necessário que os campos tenham nome. Pra ver que funciona, clica no entrar e olhe o url. Tratamento disso vai ser usando alguma linguagem de programação-->
+			<input type="submit" value = "Entrar">
+		</form><br/><br/>
+
+
+
+		<h1> Cadastro</h1>
+		<form>
+			Nome<br/>
+			<input type="text"><br/>
+			Sobrenome<br/>
+			<input type="text"><br/>
+			
+			<!-- utilizando o mesmo nome, tu força a pessoa escolher apenas um, pq é o mesmo item -->
+			Sexo:<br/>
+			<input type="radio" name="sexo"/> Masculino <br/>
+			<input type="radio"  name="sexo"/> Feminino <br/>
+
+
+			<h1>Vydia Gaemz que acha bacanas: </h1><br/>
+			
+			<!-- Dai permite mais de uma opçao. Pode usar também radio sem nome, mas não faz mto sentido pq tem um comando justamente pra isso-->
+			<input type = "checkbox" /> Final Fantasy
+			<input type = "checkbox" /> The Witcher <br/>
+			<input type = "checkbox" /> Mass Effect 
+			<input type = "checkbox" /> Metal Gear Solid <br/><br/>
+		
+
+			<!-- Combo que permite escolher uma das várias opções-->
+			Estado: <br/>
+			<select>
+				<option>São Paulo
+				<option>Rio Grande do Sul</option>
+			</select><br/><br/>
+
+
+			<!-- é tipo um input text mas maior :) -->
+			Observações:<br/>
+			<textarea> </textarea><br/><br/>
+			<input type = "button" value = "Enviar"/>
+		</form>
+
+
+	</body>
+
+</html>

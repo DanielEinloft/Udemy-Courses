@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Novas tags</title>
+		<meta charset="utf-8"/>
+
+
+	</head>
+	
+
+	<body>
+
+		<!--substitui a div de cabecalho! Sites de procura identificam isso como cabecalho masi facilmente :}-->
+		<header>
+			<h1>Logo</h1>
+			<span>Meu site</span>
+		</header>
+
+		<!--postagem!-->
+		<article>
+			<h3>Novas tags</h3>
+
+
+			<!--separar sessao para documento. É parecido com div -->
+			<section>
+				<form>
+					<!-- Boa prática: colocar label com os elementos -->
+					<label for="nomee">Nome</label>
+					<input type="text" name="nomee" autofocus=""> <br/><br/>
+
+					<label for="Email">Email</label>
+					<input type="email" name="Email" placeholder="email@gmail.com" required><br/><br/>
+
+					<label for="numero">Numero</label>
+					<input type="number" name="numero" min="0" max="10" step="2"><br/><br/>
+
+					<label for="url">URL</label>
+					<input type="url" name="url" placeholder="ex:http://www.text.com"><br/><br/>
+
+
+					<label for="search">Pesquisar</label>
+					<input type="search" name="search" placeholder="Pesquise algo"><br/><br/>
+
+					<label for="range">range</label>
+					<input type="range" name="range" min="0" max="10" step="2" value="6"><br/><br/>
+
+					<label for="data">data</label>
+					<input type="date" name="data"><br/><br/>
+
+
+					<label for="color">color</label>
+					<input type="color" name="color"><br/><br/>
+
+
+					<input type="submit" name="Enviar"> <br/>
+				</form>
+
+
+
+
+
+
+
+
+
+			</section>
+		</article>
+
+
+
+		<!-- usado pra informações do autor, banners, propagandas..-->
+		<aside>
+			Sobre o autor
+
+		</aside>
+
+		<article>
+			<h3>Novos cursos 2</h3>
+
+			<!--separar sessao para documento. É parecido com div -->
+			<section>
+
+				<!-- criart atributos pra ser utilizados no javascript :} -->
+				<ul>
+					<li class="item" data-idade="23"> PEssoa1</li>
+					<li class="item" data-idade="24"> PEssoa 2</li>
+					<li class="item" data-idade="25">Pessoa 3</li>
+				</ul>
+
+			</section>
+		</article>
+
+		<!-- div de navegação-->
+		<nav>
+			<ul>
+				<li><a href="#">HOME<a/></li>
+				<li><a href="#">QUEM SOMOS<a/></li>
+				<li><a href="#">Contato<a/></li>
+			</ul>
+		</nav>
+
+
+
+
+		<!-- corresponde a div de  rodapé-->
+		<footer>
+			&copy; 2018 - Daniel Einloft, postado em <time>20/04/2018</time>
+		</footer>
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>Tabela</title>
+		<meta charset = "utf-8" />
+	</head>
+	
+	<body>
+		<h1> Tabelas </h1>
+		
+		<table border = "10" width="50%"> <!-- border = 1: borda de 1 pixel; widht == espaçamento, em pixels. Se colocar porcentagem, utiliza 100% do navegador.-->
+
+				<th> Head 1 </th> <!-- Table head-->
+				<th> Head 2</th>
+
+				<tr>  <!-- table row: nova linha da tabela-->
+					<td> <img src = "source/persona.jpg"  width=" 100" /> </td> <!-- table data, ou table cel-->
+					<td> Segunda célula da linha</td>
+					<td> Dummy</td>
+				</tr> <!-- define uma linha da tabela--> 
+
+
+				<tr>
+					<td colspan=" 2"> New line </td>
+					<!-- <td> </td> funciona pra faer uma célula fica em branco...mas é mais interessante usar o colspan, que indica que uma celula vai ter 2, 3,4 celulas -->
+					<td> New cell from second line</td>
+				</tr>
+
+
+
+				<tr> 
+					<td rowspan="2" > Vydia Gaemz </td>
+					<td> are cool </td>
+				</tr>
+				<tr> 
+					<td> are really nice </td>
+				</tr>
+
+		</table>
+
+
+	</body>
+	
+</html>
+
+

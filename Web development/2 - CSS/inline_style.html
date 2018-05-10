@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inline Style</title>
+		<meta charset ="utf-8"/>
+		<!-- seletores setam estilo para tags específicas. 
+		Se usa classes pra  casos de excessão.
+
+		id se usa pra ser um identificador unico de cada página. Não faz sentido usar um id pra várias coisas. Vai ser bastante usado no javascript-->
+
+		<style type="text/css">
+
+
+			p{
+				color:blue;
+				border: 3px solid blue;
+			}
+
+			.classe_paragrafo
+			{
+				color:red;
+				border: 6px solid red;
+			}
+
+			#id_verde
+			{
+				color:green;
+			}
+		</style>
+	</head>
+	
+
+	<body>
+		<h1 id="id_verde"> Estilo CSS (Cascading Sheets Style) </h1>
+
+		<!-- Pode colocar os tyle em qualquer tag pra colocar as formatações:). Formatação INLINE significa que vai colocar diretamente na tag que quer  colocar-->
+		<!-- <p style="color: red; border: 3px solid blue;"> -->
+		<p class="classe_paragrafo"> 
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a felis in enim fermentum auctor. In nec neque at nisi molestie egestas. Nam pellentesque finibus diam, ac imperdiet dolor. Suspendisse a ex libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer feugiat mi nunc, vitae dapibus est aliquam a. Aliquam mollis sit amet eros suscipit interdum. Proin imperdiet leo ac enim volutpat, in bibendum erat rutrum. Aliquam tincidunt suscipit ex sit amet ornare. Morbi vitae mattis magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sit amet elementum dolor, et tempor velit. Vivamus sodales ante vel nibh iaculis, id tempus nunc euismod. Maecenas condimentum fermentum ex, vel sollicitudin turpis semper in. Ut mi eros, ultricies eu lorem ac, auctor porttitor ex.
+		</p>
+
+		<p>
+			In hac habitasse platea dictumst. Suspendisse pulvinar neque ac condimentum volutpat. Aenean ut nisl fringilla, mattis neque vel, pretium massa. Aenean vestibulum lobortis odio sit amet iaculis. Nam sed nisl ut diam facilisis imperdiet nec sed felis. Aliquam mauris mi, maximus a mauris nec, maximus finibus urna. Nunc imperdiet orci vel dui semper, non lacinia sapien dapibus. Quisque eget lorem risus. Nunc ut semper felis, vel malesuada odio.			
+		</p>
+
+
+		<p id="id_verde">
+			In hac habitasse platea dictumst. Suspendisse pulvinar neque ac condimentum volutpat. Aenean ut nisl fringilla, mattis neque vel, pretium massa. Aenean vestibulum lobortis odio sit amet iaculis. Nam sed nisl ut diam facilisis imperdiet nec sed felis. Aliquam mauris mi, maximus a mauris nec, maximus finibus urna. Nunc imperdiet orci vel dui semper, non lacinia sapien dapibus. Quisque eget lorem risus. Nunc ut semper felis, vel malesuada odio.			
+		</p>
+
+		<p id="id_verde" class="classe_paragrafo" >
+			In hac habitasse platea dictumst. Suspendisse pulvinar neque ac condimentum volutpat. Aenean ut nisl fringilla, mattis neque vel, pretium massa. Aenean vestibulum lobortis odio sit amet iaculis. Nam sed nisl ut diam facilisis imperdiet nec sed felis. Aliquam mauris mi, maximus a mauris nec, maximus finibus urna. Nunc imperdiet orci vel dui semper, non lacinia sapien dapibus. Quisque eget lorem risus. Nunc ut semper felis, vel malesuada odio.			
+		</p>
+
+	</body>
+</html>

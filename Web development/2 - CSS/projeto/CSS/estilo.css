@@ -1,0 +1,106 @@
+/*limpar as formatações padroes, pq cada browser tem formatações defaults diferentes*/
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+#navegacao
+{
+	background-color: #FFF;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+body
+{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica ,sans-serif;
+	background: #f3f3f3;
+}
+
+#area
+{
+	width: 720px;
+	margin: 0px auto;
+}
+
+#area-principal
+{
+	width: 720px;
+	margin: 55px auto 10px auto;
+}
+
+#data-postagem
+{
+	font-size: 14px;
+	border-bottom: 1px solid gray;
+	display: block; /* Mostra como se fosse um bloco :) Começa com uma nova linha e ocupa todo o width*/
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+}
+
+#postado
+{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.classe-postagem
+{
+	float:left;
+	margin: 0px 10px 5px 0px;
+}
+
+#postagem
+{
+	background: white;
+	margin-bottom: 10px;
+}
+.verde
+{
+	color: #b9c941;
+}
+
+#menu
+{
+	padding: 10px 0px;
+	float:right;
+}
+
+#logo
+{
+	float:left;
+}
+
+a
+{
+	padding: 0px 5px;
+	text-decoration: none;
+}
+
+a:link
+{
+	color:#838383;
+}
+a:visited
+{
+	color:#838383;
+}
+
+a:hover
+{
+	background-color:  #bcc941;
+}
+
+a:active
+{
+	color:#535353;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamento</title>
+		<meta charset="utf-8"/>
+
+		<style type="text/css">
+			
+			body
+			{
+				background-color: #61b58c;
+				padding: 10px;
+			}
+
+			#conteudo
+			{
+				background: #FFFFFF;
+				padding: 10px;
+				width: 600px;
+				margin: 120px auto; 
+				height: 2500px;
+
+				/*
+				height: 2500px;
+				position: relative; Colocando relative, o absoluto ali em baixo vai se posicionar no final do bloco branco. Isso pq a div é o componente mais proximo em termos aboslutos. Tirando isso, o absolute vai ficar no bottom da tela[e permanecer lá caso o user dê um scroll]. Isso pq como o div [ no caso, id conteudo] não possui uma referência específica de posicionamento, o absolute é colocado no bottom 'atual' ao carregar o html, que é uma referencia do body*/
+			}
+			.caixa
+			{
+				background: #1e6f44;
+				width: 100px;
+				height: 100px;
+				color: white;
+			}
+
+			/* position relative significa que as regras de posicionamento dela vão ser relativas a ela mesmo. Ou seja, de cima, da esquerda pra direita. Colocando um left 30, ele vai 30 pra direita, por ex*/
+			#relativo
+			{
+				position: relative;
+				left: 30px;
+				top:-50px;
+			}
+
+			/* Faz o posicionamento seja fora do comportamento da div atual. Por isso ela "sai" da div superior e se comporta como se não tivesse dentro da div, fica absoluta em relação aoao elemento 'pai' mais próximo. Caso o pai nao tenha posicao definida, ele vai seguindo os elementos pai até ter uma referência. Ver o 'conteudo' id*/
+			#absoluta
+			{
+				position: absolute;
+				bottom:0;
+				left:30;
+			}
+
+
+			/*É tipo o absoluto, mas ele fica fixo à janela do browser, não ao elemento pai. Fica referente sempre à janela em si. Dando scroll,o elemento vai ficar parado no mesmo local, sempre*/
+			#fixed
+			{
+				position: fixed;
+				top:0px;
+				left: 0px;
+				width: 100%;
+				background: #000;
+			}
+
+
+		</style>
+	</head>
+	<body>
+
+		<div id="conteudo">
+			<h1>Posicionamento</h1>
+			<h4>Relative</h4>
+			<div id="relativo" class="caixa">Relative</div>
+
+			<h4>Absolute</h4>
+			<div id="absoluta" class="caixa">Absolute</div>
+		
+			<h4>Fixed</h4>
+			<div id="fixed" class="caixa">Menu</div>
+		</div>
+
+
+
+	</body>
+</html>
