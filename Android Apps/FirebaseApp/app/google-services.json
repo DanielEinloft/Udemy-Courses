@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "667668773652",
+    "firebase_url": "https://projetoteste-b32ff.firebaseio.com",
+    "project_id": "projetoteste-b32ff",
+    "storage_bucket": "projetoteste-b32ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667668773652:android:575ebbd6ab8eb0c1",
+        "android_client_info": {
+          "package_name": "com.example.thami.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667668773652-d0kgqj30cs7lfdo7e9c43bafqd22giv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thami.firebaseapp",
+            "certificate_hash": "305a32df4b43288d1adc5a602dda61aa4d7b9068"
+          }
+        },
+        {
+          "client_id": "667668773652-r6r67qggbkk536sm6nnrtiikum5093nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdaydrTotf085XdXXkO25cwh0Gic1i-N0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667668773652-r6r67qggbkk536sm6nnrtiikum5093nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
